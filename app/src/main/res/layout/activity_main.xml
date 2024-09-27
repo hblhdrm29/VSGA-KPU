@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tvJudul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100sp"
+        android:text="K P U"
+        android:textSize="50dp" />
+
+    <Button
+        android:id="@+id/btnInformasi"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="Informasi" />
+
+    <Button
+        android:id="@+id/btnFormEntri"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="Form Entriy Data" />
+
+    <Button
+        android:id="@+id/btnLihatData"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:text="Lihat Data" />
+
+    <Button
+        android:id="@+id/btnKeluar"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="Keluar" />
+</LinearLayout>
